@@ -103,15 +103,7 @@ public class Hash {
     //Метод для создания мапы с айдишниками на русском языке
     public static String createNewMap(Map<String, Object> nm) {
         String res = " ";
-        String k = " ";
-        for (Map.Entry<String, Object> entry : nm.entrySet()) {
-            if(k.contains(om.keySet(nm))){
-                keys.add(entry.getKey());
-            }else{
-                duplicates.add(entry.getValue());
-            }
-            
-        } 
+        
         
         
       
